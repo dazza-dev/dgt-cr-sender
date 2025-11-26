@@ -1,0 +1,37 @@
+{
+  "name": "dazza-dev/dgt-cr-sender",
+  "description": "Paquete para enviar documentos electrónicos (Factura, Nota crédito, Nota débito y Tiquete Electrónico) al Ministerio de Hacienda (Costa Rica).",
+  "keywords": [
+    "dgt",
+    "factura electrónica",
+    "costa rica"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Andres Daza",
+      "email": "adaza90@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DazzaDev\\DgtCrSender\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DazzaDev\\DgtCrSender\\Tests\\": "tests/"
+    }
+  }
+}
